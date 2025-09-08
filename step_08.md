@@ -1,13 +1,14 @@
-# Step 08 — Final Deploy & Smoke Test on `erp.blinkds.com`
+# Step ${i} — [Instruction Title Placeholder]
 
+## Objective
+Clear description of what Sonnant 4 must do in this step.
 
-**Objective:** Deploy backend via Docker Compose on VPS (or Portainer) with Traefik labels and perform final smoke tests from public domain.
+## Deliverables
+- Code/infra artifacts
+- Update to \`step_${i}_results.md\`
 
+## Verification
+Checklist of tests or commands Sonnant 4 should run.
 
-**Tasks:**
-- Deploy backend stack using provided `docker-compose.backend.yml` or Portainer compose.
-- Ensure Traefik routes `erp.blinkds.com` to the backend and TLS is available.
-- Run public-facing smoke tests (from remote machine) to authenticate and fetch main dashboard metrics.
-
-
-**Deliverable:** `step_08_results.md` including curl output, HTTPS verification, and any traefik logs.
+---
+**Note:** After completing, update \`step_${i}_results.md\` with timestamp, branch, PR link, commands run, and verification results.

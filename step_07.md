@@ -1,12 +1,14 @@
-# Step 07 — CI Workflow & PRs
+# Step ${i} — [Instruction Title Placeholder]
 
+## Objective
+Clear description of what Sonnant 4 must do in this step.
 
-**Objective:** Add GitHub Actions for backend tests and open PRs for earlier branches.
+## Deliverables
+- Code/infra artifacts
+- Update to \`step_${i}_results.md\`
 
+## Verification
+Checklist of tests or commands Sonnant 4 should run.
 
-**Tasks:**
-- Add `.github/workflows/ci-backend.yml` to run tests on PRs.
-- Open PRs for `task/step-01` through `task/step-06` (or group logically per milestone).
-
-
-**Deliverable:** `step_07_results.md` with workflow run logs (if triggered) and PR links.
+---
+**Note:** After completing, update \`step_${i}_results.md\` with timestamp, branch, PR link, commands run, and verification results.
