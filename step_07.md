@@ -1,12 +1,17 @@
-# Step 07 — CI Workflow & PRs
+# Step 07 — CI/CD with GitHub Actions
 
+## Objective
+Automate build, test, and deploy workflow.
 
-**Objective:** Add GitHub Actions for backend tests and open PRs for earlier branches.
+## Deliverables
+- Add `.github/workflows/ci.yml` for build & test.
+- Add `.github/workflows/deploy.yml` for VPS deploy (Docker + Traefik).
+- Ensure secrets configured in GitHub (DB URL, JWT_SECRET, etc.).
+- Update `step_07_results.md`.
 
+## Verification
+- Screenshot/log of passing GitHub Action run.
+- Deployed backend accessible at `https://erp.blinkds.com/api/health`.
 
-**Tasks:**
-- Add `.github/workflows/ci-backend.yml` to run tests on PRs.
-- Open PRs for `task/step-01` through `task/step-06` (or group logically per milestone).
-
-
-**Deliverable:** `step_07_results.md` with workflow run logs (if triggered) and PR links.
+---
+**Note:** Log results in `step_07_results.md`.
