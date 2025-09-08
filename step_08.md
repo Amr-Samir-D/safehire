@@ -1,13 +1,20 @@
-# Step 08 — Final Deploy & Smoke Test on `erp.blinkds.com`
+# Step 08 — Final Deployment & Handover
 
+## Objective
+Deploy SafeHire backend + frontend on VPS with Traefik and verify production readiness.
 
-**Objective:** Deploy backend via Docker Compose on VPS (or Portainer) with Traefik labels and perform final smoke tests from public domain.
+## Deliverables
+- Confirm backend container is running.
+- Confirm frontend container is running and connected to backend.
+- Ensure HTTPS with valid SSL cert.
+- Run end-to-end tests: login, driver search, incident report submission.
+- Update `step_08_results.md`.
 
+## Verification
+- Screenshots of live app at `https://erp.blinkds.com`.
+- API health check passes in production.
+- Google login works in production.
+- No console errors in frontend.
 
-**Tasks:**
-- Deploy backend stack using provided `docker-compose.backend.yml` or Portainer compose.
-- Ensure Traefik routes `erp.blinkds.com` to the backend and TLS is available.
-- Run public-facing smoke tests (from remote machine) to authenticate and fetch main dashboard metrics.
-
-
-**Deliverable:** `step_08_results.md` including curl output, HTTPS verification, and any traefik logs.
+---
+**Note:** Results documented in `step_08_results.md`.
